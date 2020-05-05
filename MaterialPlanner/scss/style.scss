@@ -1,0 +1,26 @@
+
+@import "materialize-src/sass/materialize.scss";
+
+.container {
+  // border-left: 1px solid red;;
+  // border-right: 1px solid red;;
+}
+
+.collection-item {
+  border-radius: 5px;
+}
+
+.collection-header {
+  color: $primary-color;
+}
+
+#current-topic {
+  h5 {
+    color: $primary-color;
+  }
+}
+
+.btn-floating {
+
+  color: $secondary-color;
+}
