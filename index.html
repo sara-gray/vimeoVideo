@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+
+  <div class="container">
+    <div id="videos" class="row">
+      <div class="col s1"></div>
+      <div class="col s2 center">
+        <a id="video1" class="waves-effect waves-light btn red"><i
+            class="material-icons left">play_circle_filled</i>1</a>
+      </div>
+      <div class="col s2 center">
+        <a id="video2" class="waves-effect waves-light btn amber"><i
+            class="material-icons left">play_circle_filled</i>2</a>
+      </div>
+      <div class="col s2 center">
+        <a id="video3" class="waves-effect waves-light btn blue"><i
+            class="material-icons left">play_circle_filled</i>3</a>
+      </div>
+      <div class="col s2 center">
+        <a id="video4" class="waves-effect waves-light btn green"><i
+            class="material-icons left">play_circle_filled</i>4</a>
+      </div>
+      <div class="col s2 center">
+        <a id="video5" class="waves-effect waves-light btn purple"><i
+            class="material-icons left">play_circle_filled</i>5</a>
+      </div>
+    </div>
+
+    <div class="video-container">
+      <div id="myVideo"></div>
+    </div>
+  </div>
+
+
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+
+  <script src="https://player.vimeo.com/api/player.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
